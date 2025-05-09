@@ -9,19 +9,8 @@ Contexto:
 Dado que eu acesse a página de Checkout
 
 Esquema do Cenário: Checkout válido
-Quando eu preencher <nome>
-E preencher <sobrenome>
-E preencher <empresa>
-E selecionar <pais>
-E preencher <endereco>
-E preencher <complemento> 
-E preencher <cidade>
-E preencher <estado>
-E preencher <cep>
-E preencher <telefone>
-E preencher <email>
+Quando eu preencher <nome>, <sobrenome>, <empresa>, <pais>, <endereco>, <complemento>, <cidade>, <estado>, <cep>, <telefone> e <email>
 Então deve exibir a <mensagem>
-
 
 Exemplos:
 |nome|sobrenome|empresa|pais|endereco|complemento|cidade|estado|cep|telefone|email|mensagem|

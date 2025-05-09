@@ -6,9 +6,8 @@
             Para visualizar meus pedidos
 
             Esquema do Cenário: Autenticar usuários
-            Dado que eu acesse a página de login da plataforma
-            Quando eu digitar <usuario>
-            E a <senha>
+            Dado que o usuário acesse a página de login da plataforma
+            Quando o usuário digitar <usuario> e <senha>
             Então deve exibir a <mensagem>
 
             Exemplos:

@@ -6,10 +6,10 @@ Quero fazer concluir meu cadastro
 Para finalizar minha compra
 
 Contexto:
-Dado que eu acesse a página de Checkout
+Dado que o usuário acesse a página de Checkout
 
 Esquema do Cenário: Checkout válido
-Quando eu preencher <nome>, <sobrenome>, <empresa>, <pais>, <endereco>, <complemento>, <cidade>, <estado>, <cep>, <telefone> e <email>
+Quando o usuário preencher <nome>, <sobrenome>, <empresa>, <pais>, <endereco>, <complemento>, <cidade>, <estado>, <cep>, <telefone> e <email>
 Então deve exibir a <mensagem>
 
 Exemplos:
